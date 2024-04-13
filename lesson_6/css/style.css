@@ -1,0 +1,176 @@
+@import url("fonts.css");
+@import url("reset.css");
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&family=Rubik:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,800;1,800&family=Rubik:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,800;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,500;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Roboto:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Roboto:wght@500;700&display=swap');
+
+.header {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    color: black;
+    font-size: 60px;
+    text-align: center;
+    text-shadow: 6px -6px 15px rgba(0, 42, 255, 0.36);
+    line-height: 2;
+}
+
+/*KROVATO*/
+
+.krovato {
+    background-color: #f8f8f8;
+}
+.block-1 {
+    font-family: "Proxima Nova", sans-serif;    
+    color: #2b2929;
+    margin: 70px auto;
+    font-style: normal;
+    max-width: 1070px;   
+ }
+.title {    
+    font-weight: 600;    
+    font-size: 40px;   
+    line-height: 48px;
+    margin-bottom: 40px;
+}
+.image img {  
+    border-radius: 8px;
+    margin-bottom: 40px;
+}
+.text  {    
+    font-weight: 400;    
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 40px;
+}
+.text p {
+    margin-bottom: 20px;
+}
+.title_list {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+.list {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+}
+.list_items {
+    background-image: url("../img/Vector.png");
+    background-repeat: no-repeat;
+    background-size: 32px 32px;
+    padding-left: 47px;
+}
+.list li {
+    margin-bottom: 17px;
+}
+
+/*EDUP_PLAY*/
+.learn_page {
+    background: url(../img/Alphabet\ Patterns.png) center/contain repeat-y, 
+    url(../img/Holographic_14\ 2.png) center/cover no-repeat, 
+    rgb(145, 76, 255);
+}
+.box div {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 80px;
+}
+.container {
+    font-family: "Quicksand",sans-serif;
+    padding: 121px 0;
+    max-width: 600px;
+}
+.page_title {    
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #ffffff;
+}
+.title_subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+    color: #ffffff;
+}
+.button {
+    color: #0d1216;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 11.5px 20px;
+    display: inline-block;
+    background-color: #ffffff;
+    border-radius: 8px;
+}
+.container_image {
+    display: inline-block;
+    width: 530px;
+    height: 547px;
+}
+
+/*ECOMMERCE_MINIMAL*/
+
+.top_main {
+    background: url(../img/flower-pattern.png) center/contain no-repeat,
+    #f5f9f9;
+    padding-top: 81px;
+    padding-bottom: 60px;
+}
+.product {
+    max-width: 1226px;
+    margin: 81px auto;
+    overflow: visible;    
+}
+.product div{
+    display: inline-block;
+    vertical-align: middle;    
+}
+.collections {
+    font-family: "Roboto",sans-serif;
+    max-width: 686px;
+    text-transform: capitalize;    
+}
+.collections h2 {    
+    font-weight: 300;
+    font-size: 74px;
+    margin-bottom: 52px;
+}
+.collections p {
+    font-weight: 400;
+    font-size: 30px;    
+    line-height: 55px;
+    margin-bottom: 66px;
+}
+.btn {    
+    font-weight: 400;
+    font-size: 29px;
+    color: #ffffff;
+    max-width: 223px;
+    padding: 19px 26px 19px 64px;
+    background: url(../img/icon.png) 26px center no-repeat,
+    #1e2832;
+}
+.model {    
+    border-radius: 160px 0;
+    box-shadow: inset 0 0 0 2px hsl(0deg 0% 0% / 25%);
+    margin-left: 98px;    
+}
+.model img {
+    border-radius: 160px 0;
+    margin: -20px 18px 20px -18px;
+}
+footer {
+        font-family: "Open Sans", sans-serif;
+        font-weight: 800;
+        text-align: center;
+        font-size: 16px;
+        font-style: normal;
+        color: rgb(54, 3, 68);
+        line-height: 30px;
+}
+
