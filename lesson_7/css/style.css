@@ -1,0 +1,366 @@
+@import url("fonts.css");
+@import url("reset.css");
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+
+.header {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    color: black;
+    font-size: 60px;
+    text-align: center;
+    text-shadow: 6px -6px 15px rgba(0, 42, 255, 0.36);
+    line-height: 2;
+}
+
+/*Домашка*/
+.link {
+    font-family: "Quicksand", sans-serif;
+    background-color: #8b3dff;
+    color: #ffffff;
+    padding: 12px;
+    font-weight: 700;
+    line-height: 1.56;
+    border-radius: 8px;
+}
+.link span {
+    display: inline-block;
+    background: url("../img/favourite.png") 0 0 no-repeat;
+    padding-left: 34px;
+}
+.link:hover {
+    color: #a875ff;
+}
+.link:active {
+    background-color: #7921ed;
+}
+.link:visited {
+    background-color: #867d93;
+}
+.link:focus {
+    outline: 3px dashed grey;
+}
+.show {
+    color: green;
+}
+.show:hover {
+    text-decoration: underline;
+}
+.text_example,
+.paragraph {
+    width: 600px;
+}
+.text_example {
+    display: none;
+    background-color: rgb(240, 174, 89);
+}
+.text_example:target {
+    display: block;
+}
+.paragraph p:first-child {
+    background-color: #727d1c;
+}
+.paragraph span:first-of-type {
+    background-color: #7921ed;
+}
+.paragraph p:last-child {
+    background-color: #146565;
+}
+.paragraph span:last-of-type {
+    background-color: #456486;
+}
+.paragraph p:nth-child(5) {
+    background-color: #996666;
+}
+.paragraph p:nth-child(6n) {
+    background-color: #7f2b70;
+}
+.paragraph p:not(:last-child){
+    margin-bottom: 15px;
+}
+
+
+/*GAME*/
+
+.game_text {
+    font-family: "Quicksand", sans-serif;
+    line-height: 48px;
+    text-align: center;
+
+}
+.game_text h2 {
+    text-transform: uppercase;
+    font-size: 56px;
+    font-weight: 700;
+    text-shadow: 3px -3px 0px blue;
+}
+.game_text p {
+    font-size: 24px;
+    font-weight: 300;    
+}
+.game {
+    padding: 20px;    
+    margin: 0px auto;
+    background-color: black;
+    width: 1070px;
+    height: 600px;    
+}
+.game__line {
+    background-color: blue;
+}
+.game__line-1 {
+    width: 50px;
+    height: 70px;    
+}
+.game__line-2 {
+    width: 50px;
+    height: 50px;
+}
+
+.game__line-2:hover {
+    width: 1000px;
+}
+.game__line-3 {
+    margin-left: 960px;
+    width: 40px;
+    height: 200px;
+    visibility: hidden;
+}
+.game__line-2:hover + .game__line-3,
+.game__line-3:hover {
+    visibility: visible;    
+}
+.game__line-4 {
+    margin-left: 400px;
+    width: 600px;
+    height: 35px;
+    visibility: hidden;
+}
+.game__line-3:hover + .game__line-4,
+.game__line-4:hover {
+    visibility: visible;
+}
+.game__line-5 {
+    margin-left: 400px;
+    margin-top: -100px;
+    width: 20px;
+    height: 100px;
+    visibility: hidden;
+}
+.game__line-4:hover + .game__line-5,
+.game__line-5:hover {
+    visibility: visible;
+}
+.game__line-6 {
+    margin-left: 250px;
+    margin-top: -100px;
+    width: 150px;
+    height: 15px;
+    visibility:hidden ;
+}
+.game__line-5:hover + .game__line-6,
+.game__line-6:hover {
+    visibility: visible;
+}
+.game__line-7 {
+    margin-left: 250px ;
+    width: 10px;
+    height: 200px;
+    visibility: hidden;
+}
+.game__line-6:hover + .game__line-7,
+.game__line-7:hover {
+    visibility: visible;
+}
+.game__line-8 {
+    font-family: "Quicksand", sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    color: #f8f8f8;
+    background-color: green;
+    padding: 12px;
+    display: inline-block;
+    margin-left: 200px;
+    visibility: hidden;
+}
+.game__line-7:hover + .game__line-8,
+.game__line-8:hover {
+    visibility: visible;
+}
+
+ /*PORTFOLIO*/
+
+ .portfolio {
+    background-color: #130000;
+    padding-block: 100px;
+    color: #fff;
+    margin-top: 70px;
+    margin-bottom: 70px;
+ } 
+   .about_me {
+    font-family: "Exo", sans-serif;        
+    max-width: 992px;
+    margin: 0 auto 60px;   
+    text-align: center;
+ }
+ .about_me h2 {    
+    font-weight: 700;
+    font-size: 60px;
+    text-transform: uppercase;
+    display: inline-block;
+    line-height: 1.16; /* 70/60 */
+    min-width: 301px;      
+}
+.about_me h2::after {
+    content: "";
+    display: block;
+    min-width: 401px;
+    display: block;
+    height: 1px;
+    margin: 20px auto 20px;
+    background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(66,255,0,1) 50%, rgba(36,0,255,1) 100%);    
+}
+.about_me p {    
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 2.22; /* 40/18 */
+    text-transform: capitalize;
+    letter-spacing: -0.4px;    
+}
+
+.about_me_sections {
+    font-family: "Orbitron", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    text-transform: capitalize;
+    line-height: 0.8; /* 20/25 */
+    margin: 0 auto 80px;
+    text-align: center;
+}
+.about_me_sections li {
+    display: inline-block;
+    max-width: 1150px;
+}
+.about_me_sections li::after {
+    content: "";
+    border-radius: 100%;
+    min-width: 10px;
+    min-height: 10px;    
+    background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(66,255,0,1) 50%, rgba(36,0,255,1) 100%);
+    margin: auto 60px;
+    
+}
+.contacts li:not(:last-child) {
+    margin-right: 80px;
+}
+.contacts {
+    margin-left: 120px;
+}
+.contacts li {
+    font-family: "Exo", sans-serif; 
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: -0.4px;
+    line-height: 1; /* 20/20 */
+    display: inline-block;
+}
+.contacts span {
+    text-transform: capitalize;
+}
+
+.contacts li:first-child:before {
+    content: "";
+    background: url("../img/call.png");
+    height: 20px;
+    width: 20px;
+    margin-right: 20px;
+    vertical-align: middle;
+    
+}
+.contacts li:nth-child(2)::before {
+    content: "";
+    background: url("../img/location.png");
+    height: 20px;
+    width: 20px;
+    margin-right: 20px;
+    vertical-align: middle;
+}
+.contacts li:last-child::before {
+    content: "";
+    background: url("../img/email.png") no-repeat;
+    height: 20px;
+    width: 20px;
+    margin-right: 20px;
+    vertical-align: middle;
+}
+
+
+
+/*KROVATO*/
+
+.krovato {
+    background-color: #f8f8f8;
+    margin-bottom: 70px;    
+}
+.block-1 {
+    font-family: "Proxima Nova", sans-serif;    
+    color: #2b2929;
+    font-style: normal;
+    max-width: 1070px; 
+    margin: 0 auto; 
+ } 
+.title {    
+    font-weight: 600;    
+    font-size: 40px;   
+    line-height: 48px;
+    margin-bottom: 40px;
+}
+.image img {  
+    border-radius: 8px;
+    margin-bottom: 40px;
+}
+.text  {    
+    font-weight: 400;    
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 40px;
+}
+.text p {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.title_list {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+}
+.list {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    max-width: 1023px;
+}
+.list li {
+    background-image: url("../img/vector.png");
+    background-repeat: no-repeat;
+    background-size: 32px 32px;
+    padding-left: 47px;
+    margin-bottom: 17px;
+}
+.block-1 *:last-child {
+    margin-bottom: 20px;
+  }
+footer {
+        font-family: "Open Sans", sans-serif;
+        font-weight: 800;
+        text-align: center;
+        font-size: 16px;
+        font-style: normal;
+        color: rgb(54, 3, 68);
+        line-height: 30px;
+}
+
